@@ -32,7 +32,7 @@ public class Function
         using var reader = new StreamReader(response.Content.ReadAsStream());
         
         return reader.ReadToEnd(); 
-
+    // return input.ToUpper();
     }
     
 }
